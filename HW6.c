@@ -2,11 +2,13 @@
 int main()
 {
     int a;
+    char ASCII;
 
     printf("Enter value of a:");
     scanf("%d",&a);
-
-     printf("ASCII value of %d = %c", a,a);
+    
+    ASCII=a;
+     printf("ASCII value = %c", a);
 
      return 0;
 }
