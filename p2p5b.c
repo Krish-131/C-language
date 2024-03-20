@@ -16,7 +16,7 @@ int main()
     total=m+c+p;
     printf("total=%d",total);
 
-    per=total*(100/300);
+    per=(total*100)/300;
     printf("per=%f",per);
 
     a=(int) per/10;
